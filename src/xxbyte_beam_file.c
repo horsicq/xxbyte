@@ -1322,7 +1322,7 @@ static xxbyte_status beam_list(beam_listing *l, uint32_t listing_flags, xx_buf_t
         }
     }
     /* function names and entry labels */
-    l->functions = (uint32_t (*)[3])xx_mem_alloc((start_count + 1) * sizeof(*l->functions));
+    l->functions = (uint32_t(*)[3])xx_mem_alloc((start_count + 1) * sizeof(*l->functions));
     l->entry_function = (uint32_t *)xx_mem_alloc((label_cap + 1) * sizeof(uint32_t));
     if (l->functions == NULL || l->entry_function == NULL) {
         status = XXBYTE_STATUS_OUT_OF_MEMORY;

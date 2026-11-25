@@ -20,16 +20,13 @@
  * turn a future collision into a compile error instead of silently changed
  * text and structure.
  */
-#define EBC_CORE_OPERAND_FLAGS                                                                                         \
-    (XXBYTE_OPERAND_FLAG_SIGNED | XXBYTE_OPERAND_FLAG_IMPLICIT | XXBYTE_OPERAND_FLAG_LIST | XXBYTE_OPERAND_FLAG_WIDE \
-     | XXBYTE_OPERAND_FLAG_HIGH16)
+#define EBC_CORE_OPERAND_FLAGS \
+    (XXBYTE_OPERAND_FLAG_SIGNED | XXBYTE_OPERAND_FLAG_IMPLICIT | XXBYTE_OPERAND_FLAG_LIST | XXBYTE_OPERAND_FLAG_WIDE | XXBYTE_OPERAND_FLAG_HIGH16)
 typedef char xxbyte_ebc_flags_clear_of_core[(XXBYTE_EBC_OPERAND_FLAG_MASK & EBC_CORE_OPERAND_FLAGS) == 0 ? 1 : -1];
 typedef char xxbyte_ebc_flags_fit[(XXBYTE_EBC_OPERAND_FLAG_MASK & ~0xFFFFu) == 0 ? 1 : -1];
 #ifdef XXBYTE_OPERAND_FLAG_FAMILY_FIRST
-typedef char xxbyte_ebc_flags_in_family_range[XXBYTE_EBC_OPERAND_FLAG_INDEX >= XXBYTE_OPERAND_FLAG_FAMILY_FIRST
-                                                      && XXBYTE_EBC_OPERAND_FLAG_NEGATIVE >= XXBYTE_OPERAND_FLAG_FAMILY_FIRST
-                                                  ? 1
-                                                  : -1];
+typedef char xxbyte_ebc_flags_in_family_range
+    [XXBYTE_EBC_OPERAND_FLAG_INDEX >= XXBYTE_OPERAND_FLAG_FAMILY_FIRST && XXBYTE_EBC_OPERAND_FLAG_NEGATIVE >= XXBYTE_OPERAND_FLAG_FAMILY_FIRST ? 1 : -1];
 #endif
 
 #define G_NONE XXBYTE_GROUP_NONE

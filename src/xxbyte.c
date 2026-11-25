@@ -3,12 +3,13 @@
 #include <xxfclib/memory/xx_memory.h>
 
 static const char *const status_names[] = {
-    "ok", "invalid argument", "end of input", "truncated input", "invalid instruction", "unsupported family", "unsupported mode", "out of memory", "I/O error", "unsupported format",
+    "ok",        "invalid argument",   "end of input", "truncated input", "invalid instruction", "unsupported family", "unsupported mode", "out of memory",
+    "I/O error", "unsupported format",
 };
 
 static const char *const family_names[XXBYTE_FAMILY_COUNT] = {
-    "unknown", "dotnet", "dex", "java", "python", "vb", "wasm", "ebpf", "lua", "luajit", "nsis", "ifps", "evm", "ebc", "yarv", "avm2",
-    "avm1", "autoit", "installshield", "hermes", "beam", "ocaml", "gdscript", "squirrel", "php", "quickjs", "v8",
+    "unknown", "dotnet", "dex",  "java",   "python",        "vb",     "wasm", "ebpf",  "lua",      "luajit",   "nsis", "ifps",    "evm", "ebc",
+    "yarv",    "avm2",   "avm1", "autoit", "installshield", "hermes", "beam", "ocaml", "gdscript", "squirrel", "php",  "quickjs", "v8",
 };
 
 static const struct {
