@@ -1,0 +1,43 @@
+#ifndef XXBYTE_QUICKJS_TABLES_H
+#define XXBYTE_QUICKJS_TABLES_H
+
+/* Generated together with xxbyte_quickjs_tables.c. Do not edit. */
+#define XXBYTE_QUICKJS_ID_COUNT 266u
+#define QJS_VERSION_COUNT 24u
+#define QJS_MODE_ALIAS_COUNT 32u
+#define QJS_DESC_COUNT 271u
+enum qjs_fmt {
+    QJS_FMT_NONE,
+    QJS_FMT_NONE_INT,
+    QJS_FMT_NONE_LOC,
+    QJS_FMT_NONE_ARG,
+    QJS_FMT_NONE_VAR_REF,
+    QJS_FMT_U8,
+    QJS_FMT_I8,
+    QJS_FMT_LOC8,
+    QJS_FMT_CONST8,
+    QJS_FMT_LABEL8,
+    QJS_FMT_U16,
+    QJS_FMT_I16,
+    QJS_FMT_LABEL16,
+    QJS_FMT_NPOP,
+    QJS_FMT_NPOPX,
+    QJS_FMT_NPOP_U16,
+    QJS_FMT_LOC,
+    QJS_FMT_ARG,
+    QJS_FMT_VAR_REF,
+    QJS_FMT_U32,
+    QJS_FMT_I32,
+    QJS_FMT_CONST,
+    QJS_FMT_LABEL,
+    QJS_FMT_ATOM,
+    QJS_FMT_ATOM_U8,
+    QJS_FMT_ATOM_U16,
+    QJS_FMT_ATOM_LABEL_U8,
+    QJS_FMT_ATOM_LABEL_U16,
+    QJS_FMT_LABEL_U16,
+    QJS_FMT_U32X2,
+    QJS_FMT_COUNT
+};
+
+#endif
