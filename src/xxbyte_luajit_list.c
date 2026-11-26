@@ -350,8 +350,8 @@ xxbyte_status xxbyte_luajit_get_vars(const uint8_t *data, size_t size, const xxb
     }
     while (status == XXBYTE_STATUS_OK) {
         xxbyte_luajit_var v;
-        uint32_t start;
-        uint32_t length;
+        uint32_t start = 0;
+        uint32_t length = 0;
         memset(&v, 0, sizeof(v));
         if (pos >= end) {
             return XXBYTE_STATUS_INVALID_INSTRUCTION;

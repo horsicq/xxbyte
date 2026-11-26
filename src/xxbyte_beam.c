@@ -305,7 +305,7 @@ xxbyte_status xxbyte_beam_term_at(uint32_t mode, const uint8_t *code, size_t cod
                     return XXBYTE_STATUS_INVALID_INSTRUCTION;
                 }
                 for (i = 0; i < count; ++i) {
-                    uint64_t kind, number;
+                    uint64_t kind = 0, number = 0;
                     status = beam_read_small_u(code, code_size, &off, &kind);
                     if (status == XXBYTE_STATUS_OK) {
                         status = beam_read_small_u(code, code_size, &off, &number);
@@ -559,7 +559,7 @@ xxbyte_status xxbyte_beam_alloc_list(const xxbyte_instruction *instruction, uint
     beam_term term;
     xxbyte_status status;
     uint64_t totals[3] = {0, 0, 0};
-    uint64_t count, i;
+    uint64_t count = 0, i;
     size_t off;
 
     if (words != NULL) {

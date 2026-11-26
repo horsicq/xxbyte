@@ -1037,7 +1037,7 @@ static xxbyte_status read_linking(rd *r, wasm_internal *in, const xxbyte_wasm_mo
     }
     while (r->pos < r->end) {
         uint32_t type;
-        uint32_t size;
+        uint32_t size = 0;
         uint32_t count;
         uint32_t i;
         rd sub;
@@ -1064,7 +1064,7 @@ static xxbyte_status read_linking(rd *r, wasm_internal *in, const xxbyte_wasm_mo
         }
         for (i = 0; i < count; ++i) {
             uint32_t kind;
-            uint32_t flags;
+            uint32_t flags = 0;
             uint32_t index = 0;
             xxbyte_wasm_string name;
             status = rd_u32(&sub, &kind);
@@ -1371,9 +1371,9 @@ static xxbyte_status read_import_section(rd *r, wasm_internal *in, xxbyte_wasm_m
     }
     for (i = 0; i < count; ++i) {
         xxbyte_wasm_string module_name;
-        xxbyte_wasm_string field_name;
+        xxbyte_wasm_string field_name = {0};
         uint8_t compact;
-        uint32_t names;
+        uint32_t names = 0;
         uint32_t k;
         status = rd_string(r, &module_name);
         if (status == XXBYTE_STATUS_OK) {
@@ -1504,7 +1504,7 @@ static xxbyte_status read_export_section(rd *r, wasm_internal *in, xxbyte_wasm_m
     }
     for (i = 0; i < count; ++i) {
         xxbyte_wasm_export entry;
-        uint8_t kind;
+        uint8_t kind = 0;
         memset(&entry, 0, sizeof(entry));
         status = rd_string(r, &entry.name);
         if (status == XXBYTE_STATUS_OK) {

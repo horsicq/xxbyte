@@ -1057,7 +1057,7 @@ static xxbyte_status read_attributes(ifps_reader *r, const ifps_types *types, ui
     for (i = 0; i < attributes; ++i) {
         uint32_t name_offset;
         uint32_t name_size;
-        uint32_t fields;
+        uint32_t fields = 0;
         uint32_t j;
 
         status = rd_name(r, MAX_LONGINT, &name_offset, &name_size);
@@ -1255,7 +1255,7 @@ static xxbyte_status read_proc(ifps_reader *r, const ifps_types *types, uint32_t
 
 static xxbyte_status read_var(ifps_reader *r, uint32_t type_count, xxbyte_ifps_var *var)
 {
-    uint32_t flags;
+    uint32_t flags = 0;
     xxbyte_status status;
 
     memset(var, 0, sizeof(*var));

@@ -1241,9 +1241,9 @@ static int yarv_inspect_hash(yarv_text *text, const xxbyte_yarv_object *object, 
     yarv_elements_init(&it, text->image, object);
     for (i = 0; i < object->length; ++i) {
         xxbyte_yarv_object k;
-        const uint8_t *bytes;
-        uint32_t length;
-        uint32_t encoding;
+        const uint8_t *bytes = NULL;
+        uint32_t length = 0;
+        uint32_t encoding = 0;
         int symbol;
 
         if (!yarv_elements_next(&it, &key) || !yarv_elements_next(&it, &value)) {

@@ -36,32 +36,32 @@ extern "C" {
 /* Bytecode families. A family compiled out of the library keeps its value. */
 typedef enum xxbyte_family {
     XXBYTE_FAMILY_UNKNOWN = 0,
-    XXBYTE_FAMILY_DOTNET = 1, /* ECMA-335 CIL (MSIL) method bodies */
-    XXBYTE_FAMILY_DEX = 2,    /* Dalvik bytecode from DEX code_items */
-    XXBYTE_FAMILY_JAVA = 3,   /* JVM bytecode from class-file Code attributes */
-    XXBYTE_FAMILY_PYTHON = 4, /* CPython bytecode from code objects */
-    XXBYTE_FAMILY_VB = 5,     /* Visual Basic 5/6 P-code */
-    XXBYTE_FAMILY_WASM = 6,   /* WebAssembly function bodies */
-    XXBYTE_FAMILY_EBPF = 7,   /* eBPF and Solana sBPF programs */
-    XXBYTE_FAMILY_LUA = 8,    /* PUC-Rio Lua 5.x function prototypes */
-    XXBYTE_FAMILY_LUAJIT = 9, /* LuaJIT 2.x function prototypes */
-    XXBYTE_FAMILY_NSIS = 10,  /* NSIS installer script entries */
-    XXBYTE_FAMILY_IFPS = 11,  /* RemObjects PascalScript (Inno Setup) */
-    XXBYTE_FAMILY_EVM = 12,   /* Ethereum Virtual Machine bytecode */
-    XXBYTE_FAMILY_EBC = 13,   /* UEFI EFI Byte Code */
-    XXBYTE_FAMILY_YARV = 14,  /* Ruby YARV instruction sequences */
-    XXBYTE_FAMILY_AVM2 = 15,  /* ActionScript 3 (AVM2) ABC method bodies */
-    XXBYTE_FAMILY_AVM1 = 16,        /* ActionScript 1/2 (AVM1) SWF action records */
-    XXBYTE_FAMILY_AUTOIT = 17,      /* AutoIt v3 compiled scripts (AU3! archives, A3X) */
+    XXBYTE_FAMILY_DOTNET = 1,         /* ECMA-335 CIL (MSIL) method bodies */
+    XXBYTE_FAMILY_DEX = 2,            /* Dalvik bytecode from DEX code_items */
+    XXBYTE_FAMILY_JAVA = 3,           /* JVM bytecode from class-file Code attributes */
+    XXBYTE_FAMILY_PYTHON = 4,         /* CPython bytecode from code objects */
+    XXBYTE_FAMILY_VB = 5,             /* Visual Basic 5/6 P-code */
+    XXBYTE_FAMILY_WASM = 6,           /* WebAssembly function bodies */
+    XXBYTE_FAMILY_EBPF = 7,           /* eBPF and Solana sBPF programs */
+    XXBYTE_FAMILY_LUA = 8,            /* PUC-Rio Lua 5.x function prototypes */
+    XXBYTE_FAMILY_LUAJIT = 9,         /* LuaJIT 2.x function prototypes */
+    XXBYTE_FAMILY_NSIS = 10,          /* NSIS installer script entries */
+    XXBYTE_FAMILY_IFPS = 11,          /* RemObjects PascalScript (Inno Setup) */
+    XXBYTE_FAMILY_EVM = 12,           /* Ethereum Virtual Machine bytecode */
+    XXBYTE_FAMILY_EBC = 13,           /* UEFI EFI Byte Code */
+    XXBYTE_FAMILY_YARV = 14,          /* Ruby YARV instruction sequences */
+    XXBYTE_FAMILY_AVM2 = 15,          /* ActionScript 3 (AVM2) ABC method bodies */
+    XXBYTE_FAMILY_AVM1 = 16,          /* ActionScript 1/2 (AVM1) SWF action records */
+    XXBYTE_FAMILY_AUTOIT = 17,        /* AutoIt v3 compiled scripts (AU3! archives, A3X) */
     XXBYTE_FAMILY_INSTALLSHIELD = 18, /* InstallShield compiled script (.inx) */
-    XXBYTE_FAMILY_HERMES = 19,      /* Hermes (React Native) bytecode */
-    XXBYTE_FAMILY_BEAM = 20,        /* Erlang/OTP BEAM code chunks */
-    XXBYTE_FAMILY_OCAML = 21,       /* OCaml bytecode (ocamlrun) */
-    XXBYTE_FAMILY_GDSCRIPT = 22,    /* Godot GDScript binary tokens (.gdc) */
-    XXBYTE_FAMILY_SQUIRREL = 23,    /* Squirrel compiled scripts (cnut) */
-    XXBYTE_FAMILY_PHP = 24,         /* PHP Zend VM opcodes (OPcache) */
-    XXBYTE_FAMILY_QUICKJS = 25,     /* QuickJS bytecode */
-    XXBYTE_FAMILY_V8 = 26           /* V8 Ignition bytecode */
+    XXBYTE_FAMILY_HERMES = 19,        /* Hermes (React Native) bytecode */
+    XXBYTE_FAMILY_BEAM = 20,          /* Erlang/OTP BEAM code chunks */
+    XXBYTE_FAMILY_OCAML = 21,         /* OCaml bytecode (ocamlrun) */
+    XXBYTE_FAMILY_GDSCRIPT = 22,      /* Godot GDScript binary tokens (.gdc) */
+    XXBYTE_FAMILY_SQUIRREL = 23,      /* Squirrel compiled scripts (cnut) */
+    XXBYTE_FAMILY_PHP = 24,           /* PHP Zend VM opcodes (OPcache) */
+    XXBYTE_FAMILY_QUICKJS = 25,       /* QuickJS bytecode */
+    XXBYTE_FAMILY_V8 = 26             /* V8 Ignition bytecode */
 } xxbyte_family;
 
 #define XXBYTE_FAMILY_COUNT 27u

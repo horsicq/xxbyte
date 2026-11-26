@@ -261,7 +261,7 @@ static xxbyte_status list_entry(const uint8_t *data, size_t size, size_t base, c
     const char *reason = NULL;
     uint8_t *buffer = NULL;
     const uint8_t *content = NULL;
-    uint64_t start;
+    uint64_t start = 0;
     xxbyte_java_class *c = NULL;
     xxbyte_status status;
 

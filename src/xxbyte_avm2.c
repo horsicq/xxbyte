@@ -613,7 +613,7 @@ static xxbyte_status avm2_decode(uint32_t mode, const void *context, const uint8
     const avm2_opcode *op = &opcodes[code[0]];
     size_t pos = 1;
     uint32_t first;
-    uint32_t second;
+    uint32_t second = 0;
     xxbyte_status status = XXBYTE_STATUS_OK;
 
     (void)context;

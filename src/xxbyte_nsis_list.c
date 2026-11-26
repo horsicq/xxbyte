@@ -311,7 +311,7 @@ static xxbyte_status list_entries(const xxbyte_nsis_script *script, uint32_t lis
         uint8_t m = script->marks[i];
         uint32_t end = i + 1;
         uint32_t index = script->section_count;
-        xxbyte_nsis_section section;
+        xxbyte_nsis_section section = {0};
 
         while (end < count && (script->marks[end] & (XXBYTE_NSIS_MARK_FUNCTION | XXBYTE_NSIS_MARK_SECTION)) == 0) {
             ++end;

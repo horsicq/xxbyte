@@ -468,7 +468,7 @@ static xxbyte_status pym_object_body(pym_reader *r, uint32_t *out, int allow_nul
     uint32_t n32;
     int32_t n;
     int flag = 0;
-    uint32_t index;
+    uint32_t index = 0;
     xxbyte_status status = pym_u8(r, &code);
 
     if (status != XXBYTE_STATUS_OK) {
