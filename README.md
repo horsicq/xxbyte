@@ -1,11 +1,6 @@
 # xxbyte
 
-C11 library for disassembling bytecode, including .NET, Java, Python,
-WebAssembly and Lua.
+C11 library for disassembling bytecode such as .NET, Java, Python, WebAssembly,
+and Lua. Requires xxfclib.
 
-Requires CMake 3.20+ and xxfclib. See [build instructions](docs/BUILD.md).
-
-Link with `xxbyte::xxbyte`. The [public headers](include/xxbyte) describe the
-API, supported formats and their limits.
-
-License: [MIT](LICENSE).
+[Build](docs/BUILD.md) · [API](include/xxbyte/) · [MIT license](LICENSE)
