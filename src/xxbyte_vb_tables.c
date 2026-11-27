@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 /*
  * Visual Basic 5/6 P-code opcode tables; generated, do not edit by hand.
  *

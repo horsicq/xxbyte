@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_beam_internal.h"
 
 #if XXBYTE_USE_BEAM

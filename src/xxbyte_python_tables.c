@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 /*
  * CPython opcode tables, extracted with each version's own
  * Lib/opcode.py and Lib/dis.py at the release tag noted per table

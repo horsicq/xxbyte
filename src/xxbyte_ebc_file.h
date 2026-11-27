@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_EBC_FILE_H
 #define XXBYTE_EBC_FILE_H
 

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_BEAM_INTERNAL_H
 #define XXBYTE_BEAM_INTERNAL_H
 

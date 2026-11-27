@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_LUAJIT_DUMP_H
 #define XXBYTE_LUAJIT_DUMP_H
 

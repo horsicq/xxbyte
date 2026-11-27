@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_HERMES_TABLES_H
 #define XXBYTE_HERMES_TABLES_H
 

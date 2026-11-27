@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_installshield_internal.h"
 
 #if XXBYTE_USE_INSTALLSHIELD

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_PYTHON_MARSHAL_H
 #define XXBYTE_PYTHON_MARSHAL_H
 

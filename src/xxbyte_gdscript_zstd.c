@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_gdscript_internal.h"
 
 #include <xxfclib/memory/xx_memory.h>

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_v8_internal.h"
 
 #if XXBYTE_USE_V8

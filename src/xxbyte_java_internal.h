@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_JAVA_INTERNAL_H
 #define XXBYTE_JAVA_INTERNAL_H
 

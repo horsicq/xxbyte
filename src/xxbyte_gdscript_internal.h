@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_GDSCRIPT_INTERNAL_H
 #define XXBYTE_GDSCRIPT_INTERNAL_H
 

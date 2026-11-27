@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_NSIS_INTERNAL_H
 #define XXBYTE_NSIS_INTERNAL_H
 

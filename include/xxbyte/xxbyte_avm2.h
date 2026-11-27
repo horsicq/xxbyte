@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_XXBYTE_AVM2_H
 #define XXBYTE_XXBYTE_AVM2_H
 

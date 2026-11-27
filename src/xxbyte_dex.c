@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_internal.h"
 #include "xxbyte_dex_file.h"
 

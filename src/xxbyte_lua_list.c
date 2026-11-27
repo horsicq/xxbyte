@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_lua_names.h"
 #include "xxbyte_lua_number.h"
 

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_ebc_file.h"
 #include "xxbyte_vb_pe.h"
 

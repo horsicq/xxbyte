@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #include "xxbyte_python_marshal.h"
 
 #if XXBYTE_USE_PYTHON

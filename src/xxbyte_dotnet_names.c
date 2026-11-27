@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 /* .NET token names (ildasm operand syntax) and whole-assembly listings. */
 #include "xxbyte_dotnet_internal.h"
 

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_WASM_TABLES_H
 #define XXBYTE_WASM_TABLES_H
 

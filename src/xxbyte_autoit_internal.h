@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_AUTOIT_INTERNAL_H
 #define XXBYTE_AUTOIT_INTERNAL_H
 

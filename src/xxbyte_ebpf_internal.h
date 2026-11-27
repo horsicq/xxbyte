@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_EBPF_INTERNAL_H
 #define XXBYTE_EBPF_INTERNAL_H
 

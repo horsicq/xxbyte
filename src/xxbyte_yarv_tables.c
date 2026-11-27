@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 /*
  * Ruby YARV instruction tables, transcribed from the insns_info.inc that
  * each release tarball ships (generated from its insns.def and

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_YARV_IBF_H
 #define XXBYTE_YARV_IBF_H
 

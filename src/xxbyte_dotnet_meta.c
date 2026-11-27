@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 /* ECMA-335 PE files, metadata root, streams and tables (Partition II). */
 #include "xxbyte_dotnet_internal.h"
 

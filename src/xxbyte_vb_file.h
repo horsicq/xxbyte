@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_VB_FILE_H
 #define XXBYTE_VB_FILE_H
 

@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 /*
  * Lua 5.0 to 5.5 opcode tables. Opcode names and order are those of
  * each release's lopcodes.c or lopnames.h (5.0.3, 5.1.5, 5.2.4,

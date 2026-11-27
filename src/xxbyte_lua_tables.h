@@ -1,3 +1,5 @@
+/* Copyright (c) 2026 hors<horsicq@gmail.com> */
+
 #ifndef XXBYTE_LUA_TABLES_H
 #define XXBYTE_LUA_TABLES_H
 
